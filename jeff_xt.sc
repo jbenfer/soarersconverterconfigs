@@ -56,8 +56,8 @@ layer 1
 # Volume controls
 
   F8     MUTE
-  F9     VOLUME_UP
-  F10    VOLUME_DOWN
+  F10     VOLUME_UP
+  F9    VOLUME_DOWN
 
 #    F keys across the number row
    1         F1
