@@ -52,6 +52,7 @@ layer 0
    PAD_8       UP
    PAD_9       PAGE_UP
    EXTRA_BACKSLASH BACKSLASH
+   F8          LSHIFT #lshift not working right now, so...
 
 endblock
 
