@@ -51,8 +51,8 @@ layer 0
    PAD_7       HOME
    PAD_8       UP
    PAD_9       PAGE_UP
-   EXTRA_BACKSLASH BACKSLASH
-   F8          LSHIFT #lshift not working right now, so...
+   #EXTRA_BACKSLASH BACKSLASH
+   #F8          LSHIFT lshift not working right now, so... - actually, got a keyboard with a working lshift
 
 endblock
 
@@ -100,7 +100,7 @@ layer 1
    MINUS      F11
    EQUAL      F12
 
-# Just for the PC/XT keyboard
+# Just for the PC/AT keyboard
 ifset set2
 layer 1
 #    Restore the Numpad
