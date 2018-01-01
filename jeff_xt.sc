@@ -51,6 +51,8 @@ layer 0
    PAD_7       HOME
    PAD_8       UP
    PAD_9       PAGE_UP
+   PAD_PERIOD  DELETE
+   PAD_0       INSERT
    #EXTRA_BACKSLASH BACKSLASH
    #F8          LSHIFT lshift not working right now, so... - actually, got a keyboard with a working lshift
 
@@ -140,20 +142,4 @@ layer 1
   MINUS      F11
   EQUAL      F12
 
-endblock
-
-
-# Secondry Function Layer: Live mods with number row function row
-ifset set1
-remapblock
-layer 2
-#    Hijack the f-keys for media controls
-   F1          F13               # Brightness
-   F2          F14
-   F3          MEDIA_VOLUME_DOWN   # Volume
-   F4          MEDIA_VOLUME_UP
-   F5         F10               # MEDIA_PREV_TRACK   # Playback
-   F6         F9               # MEDIA_NEXT_TRACK
-   F7          F11               # Exposé
-   F8          F12
 endblock
