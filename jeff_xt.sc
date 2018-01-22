@@ -53,7 +53,7 @@ layer 0
    PAD_9       PAGE_UP
    PAD_PERIOD  DELETE
    PAD_0       INSERT
-   #EXTRA_BACKSLASH BACKSLASH
+   EXTRA_BACKSLASH BACKSLASH
    #F8          LSHIFT lshift not working right now, so... - actually, got a keyboard with a working lshift
 
 endblock
